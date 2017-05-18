@@ -9,6 +9,9 @@ public class Math {
 	public int add() {
 		return a+b;
 	}
+	public int resta(){
+		return a-b;
+}
 	public static void main (String[] args){
 		Math m= new Math(2,2);	
 	}
